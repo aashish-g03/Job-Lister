@@ -44,6 +44,60 @@ class Notify extends StatelessWidget {
             ),
             Row(
               children: [
+                const Expanded(
+                  child: Text.rich(
+                    TextSpan(
+                      style: TextStyle(fontSize: 13),
+                      children: [
+                        TextSpan(text: '''\nYour request for '''),
+                        TextSpan(
+                          text: '''Manager''',
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                        TextSpan(text: ''' at'''),
+                        TextSpan(
+                          text: ''' Badonia & sons''',
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                        TextSpan(
+                            text: ''' has been shortlisted. Please contact '''),
+                        TextSpan(
+                          text: '''9074770963 ''',
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                        TextSpan(text: '''for further information.\n'''),
+                      ],
+                    ),
+                  ),
+                ),
+                Column(
+                  children: [
+                    ElevatedButton(
+                      onPressed: () {},
+                      child: const Text(
+                        'View',
+                        style: TextStyle(
+                          fontSize: 8,
+                        ),
+                      ),
+                      style: ElevatedButton.styleFrom(
+                          padding: const EdgeInsets.all(0),
+                          primary: const Color.fromRGBO(255, 5, 5, 100),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                          fixedSize: const Size(55, 25)),
+                    ),
+                    Text(
+                      '9 min ago',
+                      style: TextStyle(color: Colors.grey, fontSize: 12),
+                    )
+                  ],
+                )
+              ],
+            ),
+            Row(
+              children: [
                 const Text(
                   'Older  ',
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
@@ -55,7 +109,61 @@ class Notify extends StatelessWidget {
                   width: 300,
                 ),
               ],
-            )
+            ),
+            Row(
+              children: [
+                const Expanded(
+                  child: Text.rich(
+                    TextSpan(
+                      style: TextStyle(fontSize: 13),
+                      children: [
+                        TextSpan(text: '''\nYour request for '''),
+                        TextSpan(
+                          text: '''Manager''',
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                        TextSpan(text: ''' at'''),
+                        TextSpan(
+                          text: ''' Badonia & sons''',
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                        TextSpan(
+                            text: ''' has been shortlisted. Please contact '''),
+                        TextSpan(
+                          text: '''9074770963 ''',
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                        TextSpan(text: '''for further information.\n'''),
+                      ],
+                    ),
+                  ),
+                ),
+                Column(
+                  children: [
+                    ElevatedButton(
+                      onPressed: () {},
+                      child: const Text(
+                        'View',
+                        style: TextStyle(
+                          fontSize: 8,
+                        ),
+                      ),
+                      style: ElevatedButton.styleFrom(
+                          padding: const EdgeInsets.all(0),
+                          primary: const Color.fromRGBO(255, 5, 5, 100),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(5),
+                          ),
+                          fixedSize: const Size(55, 25)),
+                    ),
+                    Text(
+                      '9 min ago',
+                      style: TextStyle(color: Colors.grey, fontSize: 12),
+                    )
+                  ],
+                )
+              ],
+            ),
           ],
         ),
       ),
