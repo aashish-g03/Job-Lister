@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:haspr/Widgets/scroll_tiles.dart';
+
+import '../widgets/scroll_tiles.dart';
 
 class Home extends StatelessWidget {
   const Home({

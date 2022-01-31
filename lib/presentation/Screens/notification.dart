@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:haspr/Widgets/scroll_tiles.dart';
 
 class Notify extends StatelessWidget {
   const Notify({Key? key}) : super(key: key);

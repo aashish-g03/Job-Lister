@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:haspr/notification.dart';
-import 'package:haspr/post_ad.dart';
-import 'notification.dart';
-import 'history.dart';
-import 'home.dart';
+
+import 'presentation/Screens/history.dart';
+import 'presentation/Screens/home.dart';
+import 'presentation/Screens/notification.dart';
+import 'presentation/Screens/post_ad.dart';
 
 void main() {
   runApp(const MyApp());
