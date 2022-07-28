@@ -2,10 +2,13 @@ import 'package:flutter/material.dart';
 
 import '../widgets/scroll_tiles.dart';
 
+String? uid;
+
 class Home extends StatelessWidget {
-  const Home({
-    Key? key,
-  }) : super(key: key);
+  final String? uID;
+  Home({this.uID}) {
+    uid = uID;
+  }
 
   @override
   Widget build(BuildContext context) {

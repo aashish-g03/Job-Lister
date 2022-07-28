@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.haspr">
+    package="com.example.jobexp">
    <application
         android:label="haspr"
         android:icon="@mipmap/ic_launcher">
